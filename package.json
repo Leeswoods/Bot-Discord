@@ -1,0 +1,19 @@
+{
+  "name": "bot-discord-scp",
+  "version": "1.0.0",
+  "description": "Ceci est un bot discord, il comporte des fonctionalités générales. Il s'appel bot SCP 404. ",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leeswoods/Bot-Discord.git"
+  },
+  "author": "Leeswoods",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leeswoods/Bot-Discord/issues"
+  },
+  "homepage": "https://github.com/Leeswoods/Bot-Discord#readme"
+}
