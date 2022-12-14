@@ -9,7 +9,10 @@ const intents = new Discord.IntentsBitField(3276799);
 const bot = new Discord.Client({ intents });
 
 // Importer fichier LoadCommands
-const loadCommands = require("./loaders/loadCommands");
+const loadCommands = require("./Loaders/loadCommands");
+
+// Importer fichier LoadEvents
+const loadEvents = require("./Loaders/loadEvents");
 
 // Importe le fichier config.js
 const config = require("./config");
@@ -26,16 +29,4 @@ bot.commands = new Discord.Collection();
 // Mettre en ligne notre BOT DISCORD (connexion)
 bot.login(config.token);
 loadCommands(bot);
-
-// Message dans la console quand un message va être envoyé
-bot.on("messageCreate", async (message) => {
-  if (message.content === "!ping") {
-    return bot.commands.get("ping").run(bot, message);
-  }
-});
-
-// Permettre de savoir si le bot est bien connecter / Fonction asynchrone
-bot.on("ready", async () => {
-  // ${bot.user.tag} permet d'avoir accès aux données utilisateur du bot (donnée discord) et permet d'avoir le pseudo du bot et son #
-  console.log(`${bot.user.tag} est bien en ligne !`);
-});
+loadEvents(bot);
