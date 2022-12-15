@@ -12,7 +12,7 @@ module.exports = {
   // lancé la commande
   // bot sert à avoir les données du bot
   // message sert à accéder données du message
-  async run(bot, message) {
+  async run(bot, message, args) {
     // bot.ws.ping : Accèder au web token de l'API de discord
     await message.reply(`Ping : \`${bot.ws.ping}\``);
   },
