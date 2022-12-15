@@ -5,6 +5,9 @@ const Discord = require("discord.js");
 module.exports = {
   // nom de la commande
   name: "ping",
+  description: "Affiche la latence du bot",
+  permission: "Aucune",
+  dm: true,
 
   // lancé la commande
   // bot sert à avoir les données du bot
