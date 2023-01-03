@@ -37,7 +37,7 @@ module.exports = {
   // lancé la commande
   // bot sert à avoir les données du bot
   // message sert à accéder données du message
-  // Args set à indiquer à qui est addressé cette commande
+  // Args sert à indiquer à qui est addressé cette commande
   async run(bot, message, args) {
     // Membre
     // Permet de mute un user non présent sur le serveur discord (fetch)
