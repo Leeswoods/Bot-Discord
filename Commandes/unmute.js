@@ -8,6 +8,7 @@ module.exports = {
   description: "UnMute un membre",
   permission: Discord.PermissionFlagsBits.ModerateMembers,
   dm: false,
+  category: "Modération",
   options: [
     //  Le corps du mute
     {

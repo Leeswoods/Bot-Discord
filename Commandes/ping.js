@@ -8,7 +8,7 @@ module.exports = {
   description: "Affiche la latence du bot",
   permission: "Aucune",
   dm: true,
-
+  category: "Information",
   // lancé la commande
   // bot sert à avoir les données du bot
   // message sert à accéder données du message

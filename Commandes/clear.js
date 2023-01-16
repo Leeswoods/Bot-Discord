@@ -8,6 +8,7 @@ module.exports = {
   description: "Efface des messages datant de moins de 14 jours",
   permission: Discord.PermissionFlagsBits.ManageMessages,
   dm: false,
+  category: "Modération",
   options: [
     {
       type: "number",

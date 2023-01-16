@@ -5,6 +5,7 @@ module.exports = {
   description: "Kick un membre",
   permission: Discord.PermissionFlagsBits.BanMembers,
   dm: false,
+  category: "Modération",
   options: [
     // Le ban en lui même, le corps, le caractère (le membre)
     {

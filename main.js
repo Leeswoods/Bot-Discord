@@ -23,6 +23,9 @@ require("dotenv").config();
 // La collection permet de garder des données, donc en l'occurence garder les données des commandes
 bot.commands = new Discord.Collection();
 
+// Définir la couleur du bot
+bot.color = "#64B6F6";
+
 // Créaction du bot discord
 // Permet d'intéragir avec l'APi de Discord
 
