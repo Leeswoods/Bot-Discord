@@ -13,6 +13,7 @@ module.exports = {
       name: "utilisateur",
       description: "L'utilisateur à débannir",
       required: true,
+      autocomplete: false,
     },
     // La raison
     {
@@ -20,6 +21,7 @@ module.exports = {
       name: "raison",
       description: "La raison du débannissement",
       required: false,
+      autocomplete: false,
     },
   ],
 

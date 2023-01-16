@@ -16,6 +16,7 @@ module.exports = {
       name: "membre",
       description: "Le membre à UnMute",
       required: true,
+      autocomplete: false,
     },
     // La raison
     {
@@ -23,6 +24,7 @@ module.exports = {
       name: "raison",
       description: "La raison du UnMute",
       required: false,
+      autocomplete: false,
     },
   ],
 

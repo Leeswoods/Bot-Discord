@@ -13,6 +13,7 @@ module.exports = {
       name: "membre",
       description: "Le membre à kick",
       required: true,
+      autocomplete: false,
     },
     // La raison
     {
@@ -20,6 +21,7 @@ module.exports = {
       name: "raison",
       description: "La raison du kick",
       required: false,
+      autocomplete: false,
     },
   ],
 

@@ -15,12 +15,14 @@ module.exports = {
       name: "nombre",
       description: "Nombre de message à supprimer",
       required: true,
+      autocomplete: false,
     },
     {
       type: "channel",
       name: "salon",
       description: "Le salon où effacer les messages",
       required: false,
+      autocomplete: false,
     },
   ],
 

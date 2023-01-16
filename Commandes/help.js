@@ -15,6 +15,7 @@ module.exports = {
       name: "commande",
       description: "La commande à afficher",
       required: false,
+      autocomplete: true,
     },
   ],
   // lancé la commande

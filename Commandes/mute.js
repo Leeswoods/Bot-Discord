@@ -18,6 +18,7 @@ module.exports = {
       name: "membre",
       description: "Le membre à mute",
       required: true,
+      autocomplete: false,
     },
     // Le durée du mute
     {
@@ -25,6 +26,7 @@ module.exports = {
       name: "temps",
       description: "Le temps du mute",
       required: true,
+      autocomplete: false,
     },
     // La raison
     {
@@ -32,6 +34,7 @@ module.exports = {
       name: "raison",
       description: "La raison du mute",
       required: false,
+      autocomplete: false,
     },
   ],
 
