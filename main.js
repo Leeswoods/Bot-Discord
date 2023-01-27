@@ -26,6 +26,11 @@ bot.commands = new Discord.Collection();
 // Définir la couleur du bot
 bot.color = "#64B6F6";
 
+// Définit le dossier createID dans la fonction bot.function
+bot.function = {
+  createId: require("./Fonctions/createId"),
+};
+
 // Créaction du bot discord
 // Permet d'intéragir avec l'APi de Discord
 
